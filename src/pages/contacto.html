@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contacto | Xanakena | Desarrollo Web | JavaScript</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="../../src/css/normalize.css">
+    <link rel="stylesheet" href="../../src/css/xanakena.css">
+    <link rel="stylesheet" href="../../src/css/style.css">
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="../../src/images/logo.png">
+
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <div class="container">
+            <h1 class=""><span>C</span>ontacto</h1>
+            <!--Navegación-->
+            <a class="button button-primary" href="../../index.html">Inicio</a>
+            <a class="button button-primary" href="equipo.html">Equipo</a>
+            <hr>
+        </div>
+    </header>
+    <!--Principal | Formulario de Contacto-->
+    <main>
+        <div class="container">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur neque unde explicabo quidem suscipit nulla officia saepe, exercitationem vel numquam, quas voluptatibus itaque tempora maiores recusandae libero dicta repudiandae odit!+</p>
+            <form action="">
+                <div class="row">
+                    <!--Nombre: -->
+                    <div class="six columns">
+                        <label for="name-input">Nombre:</label>
+                        <input class="u-full-width" type="text" placeholder="Tu nombre" id="name-input">
+                    </div>
+                    <!--Correo:-->
+                    <div class="six columns">
+                        <label for="correo-input">Correo:</label>
+                        <input class="u-full-width" type="email" placeholder="user@dominio.com" id="correo-input">
+                    </div>
+                </div>
+                <div class="row">
+                    <!--Select motivo-->
+                    <div class="six columns">
+                        <label for="motivo-select">Seleccione la razón de contacto:</label>
+                        <select class="u-full-width" id="motivo-select">
+                            <option value="Option 1">Preguntas</option>
+                            <option value="Option 2">Admiración</option>
+                            <option value="Option 3">Quiero coordinar una reunión</option>
+                        </select>
+                    </div>
+                </div>
+                <!--Mensaje-->
+                <label for="exampleMessage">Mensaje:</label>
+                <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
+                <label class="example-send-yourself-copy">
+                    <input type="checkbox">
+                    <span class="label-body">Enviarme una copia del mensaje</span>
+                </label>
+                <!--Botón para enviar mensaje-->
+                <input class="button-primary" type="submit" value="Enviar mensaje">
+            </form>
+        </div>
+    </main>
+<!--Footer-->
+    <footer>
+        <hr>
+        <div class="container">
+            <nav class="nav-footer">
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="equipo.html">Equipo</a></li>
+                <li><a href="#">Contacto</a></li>
+            </nav>
+            <p class="u-pull-center">Xanakena &copy 2021 </p>
+        </div>
+    </footer>
+</body>
+
+</html>

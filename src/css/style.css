@@ -1,0 +1,48 @@
+.logo{
+    width: 60px;
+    margin-right: 1rem;
+}
+
+.hello-word{
+    display: flex;
+    align-items: center;
+    margin:5rem 0 5rem 0;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.icon p{
+    text-align: center;
+}
+
+
+.nav-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h1 span{
+    color: #b446f6;
+}
+
+
+.card {
+    padding: 16px;
+    box-shadow: 0 2px 8px 0 #b446f6;
+    max-width: 300px;
+    margin: 18px;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .title-card {
+    color: grey;
+    font-size: 18px;
+  }
+ 
