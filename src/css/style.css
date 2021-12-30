@@ -40,6 +40,9 @@ h1 span{
     text-align: center;
     font-family: arial;
   }
+  .card img{
+      background-size: cover;
+  }
   
   .title-card {
    font-size: 34px;
